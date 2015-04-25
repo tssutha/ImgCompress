@@ -35,7 +35,7 @@ namespace ImgCompressV1
                 fileLocation = "";
             }
 
-            txtImageLocation.Text =Path.GetDirectoryName(fileLocation);// @"D:\working\Looping_Database_Update\Images";  
+            txtImageLocation.Text =Path.GetDirectoryName(fileLocation);  
             string sOutFileLocation = txtImageLocation.Text + "Out";
             txtOutput.Text = sOutFileLocation + "\\";
           
